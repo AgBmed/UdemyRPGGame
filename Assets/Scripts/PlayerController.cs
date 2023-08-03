@@ -17,6 +17,6 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        theRB.velocity = 1;
+        theRB.velocity = new Vector2(1f, 1f);
     }
 }
